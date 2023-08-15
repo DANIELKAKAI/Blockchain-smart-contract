@@ -5,17 +5,17 @@
   </head>
   <body>
     <h1>Escrow Payment</h1>
+    <button onclick="deployContract()">Deploy</button>
+    <br>
     <label for="amount">Enter Number 1:</label>
     <input type="number" id="number1" />
     <br>
     <label for="amount">Enter Number 2:</label>
     <input type="number" id="number2" />
     <br>
-    <button onclick="deployContract()">Deploy</button>
-    <br>
     <button onclick="callAddFunction()">Add</button>
     <br>
-    <button onclick="subtractFunction()">Subtract</button>
+    <button onclick="callSubtractFunction()">Subtract</button>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.3/web3.min.js"></script>
     <script src="script.js"></script>
